@@ -1,0 +1,8 @@
+The only difference between A and B is that the uncertainty in 9 pixels have been increased for object 5
+
+If you run A (with larger pixel uncertainty for 9 pixels) it will work in parallel or serial
+
+If you run B (original, no changes) it will fail at object 5 (42_0_14) in parallel and serial.
+
+Use ferre.x as normal or ferre.verbose.x for verbose executable
+

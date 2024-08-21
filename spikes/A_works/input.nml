@@ -1,0 +1,29 @@
+&LISTA
+NDIM = 8
+NOV = 1
+INDV = 6
+SYNTHFILE(1) = '/uufs/chpc.utah.edu/common/home/sdss50/dr17/apogee/spectro/speclib/synth/synspec/marcs/solarisotopes/sdGK_200921nlte_lsfa/p_apssdGK_200921nlte_lsfa_012_075.hdr'
+PFILE = 'parameters.input'
+FFILE = 'flux.input'
+ERFILE = 'uncertainties.input'
+OPFILE = 'parameters.output'
+OFFILE = 'flux.output'
+OBSCONT = 1
+INTER = 3
+ERRBAR = 1
+INIT = 0
+INDINI = 1
+ALGOR = 3
+NTHREADS = 1
+COVPRINT = 0
+PCACHI = 0
+F_FORMAT = 1
+F_ACCESS = 0
+REJECTCONT = 0.3
+SFFILE = 'normalized_flux.output'
+PCAPROJECT = 0
+CONT = 1
+NCONT = 4
+WFILE = 'wavelengths.input'
+FILTERFILE = '/uufs/chpc.utah.edu/common/home/sdss50/sdsswork/mwm/spectro/astra/component_data/aspcap/masks/Cr.mask'
+/

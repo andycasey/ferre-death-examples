@@ -1,0 +1,372 @@
+
+ -----------------------------------------------------------------
+                     f e r r e          v4.8.8
+
+ starting on  2- 5-2022   at   17: 8:30.49
+ -----------------------------------------------------------------
+ input.nml           9
+ load_control -> ndim=           8
+ load_control -> nov =           1
+ load_control -> snr =  -1.00000000
+ load_control -> nruns=           1
+ load_control -> lsf=           0
+ load_control -> nthreads=           1
+ load_control -> f_sort=           1
+synthfile: /uufs/chpc.utah.edu/common/home/sdss50/dr17/apogee/spectro/speclib/synth/synspec/marcs/solarisotopes/sdGK_200921nlte_lsfa/p_apssdGK_200921nlte_lsfa_012_075.hdr
+
+
+ read_f       -> date =Unknown
+ read_f       -> n_p  =           5           5           5           8           7          15           7          11
+ read_f       -> wave =   0.00000000       0.00000000
+ read_f       -> id   =p_apsnewsdGK_200921nlte_lsfa_012_075.hdr
+ read_f       -> label=LOG10VDOP                                    C                                            N                                            O Mg Si S Ca Ti                              LGVSINI                                      METALS                                       LOGG                                         TEFF
+ read_f       -> npix =         900
+ read_f       -> NPCA grid (pcaproject=0)
+ lambdamin=   4.18047619
+ npix=        3028
+ wave(2)=   6.00000021E-06
+ read_f       -> totalnpca,npix,nelnpca,nvar =  7514   900    12    75
+
+ final value: npix=         900
+
+ synthfile summary
+ *******************************************************************
+    #      R     start-pix  end-pix    start-lambda      end-lambda
+    1   22500.0       1     3028        15152.217        15799.529
+    2   22500.0    3029     5523        15867.556        16424.035
+    3   22500.0    5524     7514        16484.049        16943.771
+ *******************************************************************
+  read_f       -> scalef  =   1.00000000
+ read_f       -> rangef  =   27.5983047
+ read_f       -> badflux =  -1000.00000
+ ellapsed time:               27.7590  s
+ Done reading!
+ main         -> nobj =  1000000000
+ main         -> nlambda =           0
+ main         -> filterfile = /uufs/chpc.utah.edu/common/home/sdss50/sdsswork/mwm/spectro/astra/component_data/aspcap/masks/Cr.mask                                                                                                                                                                                                        (array with         7514  elements)
+ about to enter parallel region!
+ main         -> nthreads =           1
+ main         -> tid =           1
+ next object #           1
+
+    Function number     1    F =  0.8927714080E-01    The corresponding X is:
+     0.618286
+
+    Function number     2    F =  0.4628627747E-01    The corresponding X is:
+     0.663286
+
+    Function number     3    F =  0.3926596791E-01    The corresponding X is:
+     0.708286
+
+
+    New RHO = 0.4500E-02     Number of function values =     3
+    Least value of F =  0.392659679055214E-01         The corresponding X is:
+     0.708286
+
+    Function number     4    F =  0.3632794321E-01    The corresponding X is:
+     0.694568
+
+    Function number     5    F =  0.3639861941E-01    The corresponding X is:
+     0.690068
+
+    Function number     6    F =  0.3674577177E-01    The corresponding X is:
+     0.699068
+
+
+    New RHO = 0.6708E-03     Number of function values =     6
+    Least value of F =  0.363279432058334E-01         The corresponding X is:
+     0.694568
+
+    Function number     7    F =  0.3629520535E-01    The corresponding X is:
+     0.692969
+
+    Function number     8    F =  0.3630296141E-01    The corresponding X is:
+     0.692299
+
+    Function number     9    F =  0.3629449010E-01    The corresponding X is:
+     0.693640
+
+    Function number    10    F =  0.3631554544E-01    The corresponding X is:
+     0.694311
+
+
+    New RHO = 0.1000E-03     Number of function values =    10
+    Least value of F =  0.362944900989532E-01         The corresponding X is:
+     0.693640
+
+    Function number    11    F =  0.3629574180E-01    The corresponding X is:
+     0.693327
+
+    Function number    12    F =  0.3629667312E-01    The corresponding X is:
+     0.693539
+
+    Function number    13    F =  0.3629901260E-01    The corresponding X is:
+     0.693740
+
+    Function number    14    F =  0.3629748896E-01    The corresponding X is:
+     0.693622
+
+    At the return from UOBYQA     Number of function values =    14
+    Least value of F =  0.362944900989532E-01         The corresponding X is:
+     0.693640
+
+           1 42_0_10_27.1_2M02252618-0359229
+ SOL   0.6784   0.1250   0.7615   0.6600
+  0.3626   0.6936   0.2323   0.6458
+ ERR   0.0000   0.0000   0.0000   0.0000
+  0.0000   0.0019   0.0000   0.0000
+ median snr =   34.8045921
+ ellapsed time:               30.9934  s
+ next object #           2
+
+    Function number     1    F =  0.1162496582        The corresponding X is:
+     0.617143
+
+    Function number     2    F =  0.1014108360        The corresponding X is:
+     0.662143
+
+    Function number     3    F =  0.1320044398        The corresponding X is:
+     0.707143
+
+
+    New RHO = 0.4500E-02     Number of function values =     3
+    Least value of F =  0.101410835981369             The corresponding X is:
+     0.662143
+
+    Function number     4    F =  0.1012768000        The corresponding X is:
+     0.654340
+
+    Function number     5    F =  0.1011673734        The corresponding X is:
+     0.657321
+
+
+    New RHO = 0.6708E-03     Number of function values =     5
+    Least value of F =  0.101167373359203             The corresponding X is:
+     0.657321
+
+    Function number     6    F =  0.1011801064        The corresponding X is:
+     0.657992
+
+    Function number     7    F =  0.1011853591        The corresponding X is:
+     0.656650
+
+
+    New RHO = 0.1000E-03     Number of function values =     7
+    Least value of F =  0.101167373359203             The corresponding X is:
+     0.657321
+
+    Function number     8    F =  0.1011806279        The corresponding X is:
+     0.657378
+
+    Function number     9    F =  0.1011699587        The corresponding X is:
+     0.657221
+
+    Function number    10    F =  0.1011738330        The corresponding X is:
+     0.657279
+
+    At the return from UOBYQA     Number of function values =    10
+    Least value of F =  0.101167373359203             The corresponding X is:
+     0.657321
+
+           2 42_0_11_26.3_2M02252618-0359229
+ SOL   0.6336   0.0100   0.7825   0.6726
+  0.3233   0.6573   0.2253   0.6086
+ ERR   0.0000   0.0000   0.0000   0.0000
+  0.0000   0.0021   0.0000   0.0000
+ median snr =   35.9251633
+ ellapsed time:               33.6027  s
+ next object #           3
+
+    Function number     1    F =  0.4682666659        The corresponding X is:
+     0.620571
+
+    Function number     2    F =  0.4837998152        The corresponding X is:
+     0.665571
+
+    Function number     3    F =  0.4767593145        The corresponding X is:
+     0.575571
+
+
+    New RHO = 0.4500E-02     Number of function values =     3
+    Least value of F =  0.468266665935516             The corresponding X is:
+     0.620571
+
+    Function number     4    F =  0.4681830108        The corresponding X is:
+     0.613978
+
+    Function number     5    F =  0.4684041739        The corresponding X is:
+     0.609478
+
+
+    New RHO = 0.6708E-03     Number of function values =     5
+    Least value of F =  0.468183010816574             The corresponding X is:
+     0.613978
+
+    Function number     6    F =  0.4681606591        The corresponding X is:
+     0.616137
+
+    Function number     7    F =  0.4681310356        The corresponding X is:
+     0.616807
+
+    Function number     8    F =  0.4682206810        The corresponding X is:
+     0.619637
+
+    Function number     9    F =  0.4681726098        The corresponding X is:
+     0.617491
+
+
+    New RHO = 0.1000E-03     Number of function values =     9
+    Least value of F =  0.468131035566330             The corresponding X is:
+     0.616807
+
+    Function number    10    F =  0.4681377709        The corresponding X is:
+     0.616757
+
+    Function number    11    F =  0.4681422114        The corresponding X is:
+     0.616907
+
+    Function number    12    F =  0.4681207538        The corresponding X is:
+     0.616823
+
+    At the return from UOBYQA     Number of function values =    12
+    Least value of F =  0.468120753765106             The corresponding X is:
+     0.616823
+
+           3 42_0_12_15.2_2M02252618-0359229
+ SOL   0.0738   0.0100   0.8085   0.6366
+  0.3111   0.6168   0.3347   0.5756
+ ERR   0.0000   0.0000   0.0000   0.0000
+  0.0000   0.0040   0.0000   0.0000
+ median snr =   21.3720894
+ ellapsed time:               36.5559  s
+ next object #           4
+
+    Function number     1    F =  0.7459116578        The corresponding X is:
+     0.722571
+
+    Function number     2    F =  0.8329800367        The corresponding X is:
+     0.767571
+
+    Function number     3    F =  0.6751330495        The corresponding X is:
+     0.677571
+
+    Function number     4    F =  0.6238035560        The corresponding X is:
+     0.632571
+
+    Function number     5    F =  0.5773562789        The corresponding X is:
+     0.542571
+
+    Function number     6    F =  0.5750817657        The corresponding X is:
+     0.497571
+
+    Function number     7    F =  0.5801029801        The corresponding X is:
+     0.452571
+
+
+    New RHO = 0.4500E-02     Number of function values =     7
+    Least value of F =  0.575081765651703             The corresponding X is:
+     0.497571
+
+    Function number     8    F =  0.5748003125        The corresponding X is:
+     0.506042
+
+    Function number     9    F =  0.5747686028        The corresponding X is:
+     0.509051
+
+    Function number    10    F =  0.5747841597        The corresponding X is:
+     0.513551
+
+
+    New RHO = 0.6708E-03     Number of function values =    10
+    Least value of F =  0.574768602848053             The corresponding X is:
+     0.509051
+
+    Function number    11    F =  0.5747738481        The corresponding X is:
+     0.510374
+
+    Function number    12    F =  0.5747559071        The corresponding X is:
+     0.508380
+
+    Function number    13    F =  0.5747725964        The corresponding X is:
+     0.507710
+
+
+    New RHO = 0.1000E-03     Number of function values =    13
+    Least value of F =  0.574755907058716             The corresponding X is:
+     0.508380
+
+    Function number    14    F =  0.5747658014        The corresponding X is:
+     0.508426
+
+    At the return from UOBYQA     Number of function values =    14
+    Least value of F =  0.574755907058716             The corresponding X is:
+     0.508380
+
+           4 42_0_13_5.4_2M02252618-0359229
+ SOL   0.3529   0.6420   0.0100   0.5703
+  0.5287   0.5084   0.0867   0.4155
+ ERR   0.0000   0.0000   0.0000   0.0000
+  0.0000   0.0190   0.0000   0.0000
+ median snr =   9.18840989E-03
+ ellapsed time:               40.0090  s
+ next object #           5
+
+    Function number     1    F =  0.1417624503        The corresponding X is:
+     0.626000
+
+    Function number     2    F =  0.2103001177        The corresponding X is:
+     0.671000
+
+    Function number     3    F =  0.1096764579        The corresponding X is:
+     0.581000
+
+
+    New RHO = 0.4500E-02     Number of function values =     3
+    Least value of F =  0.109676457941532             The corresponding X is:
+     0.581000
+
+    Function number     4    F =  0.1048316658        The corresponding X is:
+     0.563890
+
+    Function number     5    F =  0.1032901704        The corresponding X is:
+     0.551989
+
+    Function number     6    F =  0.1030013338        The corresponding X is:
+     0.545707
+
+    Function number     7    F =  0.1029879674        The corresponding X is:
+     0.541207
+
+    Function number     8    F =  0.1030993834        The corresponding X is:
+     0.536707
+
+
+    New RHO = 0.6708E-03     Number of function values =     8
+    Least value of F =  0.102987967431545             The corresponding X is:
+     0.541207
+
+    Function number     9    F =  0.1029766202        The corresponding X is:
+     0.542975
+
+    Function number    10    F =  0.1029677466        The corresponding X is:
+     0.543646
+
+    Function number    11    F =  0.1029948071        The corresponding X is:
+     0.546085
+
+    Function number    12    F =  0.1029546186        The corresponding X is:
+     0.544156
+
+    Function number    13    F =  0.1029933095        The corresponding X is:
+     0.544575
+
+
+    New RHO = 0.1000E-03     Number of function values =    13
+    Least value of F =  0.102954618632793             The corresponding X is:
+     0.544156
+
+    Function number    14    F =  0.1029748619        The corresponding X is:
+     0.544002
+
+    Function number    15    F =               NaN    The corresponding X is:
+     0.544248
